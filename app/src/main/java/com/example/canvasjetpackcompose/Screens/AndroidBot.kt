@@ -19,6 +19,8 @@ fun AndroidBot(){
 Canvas(modifier = Modifier.fillMaxSize().background(Color.White)) {
     val height= size.height
     val width= size.width
+    val recheight=450.dp.toPx()
+    val rectWidth=450.dp.toPx()
 
     drawArc(startAngle = 0f, sweepAngle = -180f, useCenter = true, color = Color.Green
     , size = Size(height/2,width/2)
@@ -29,6 +31,11 @@ Canvas(modifier = Modifier.fillMaxSize().background(Color.White)) {
 
     drawCircle(center = Offset(height.times(0.1f),width.times(0.9f))
         , color = Color.Blue, radius = 200f)
+
+    drawRect(color = Color.Yellow, size = Size(height = recheight, width = rectWidth),
+        topLeft = Offset(x = height/2, y = width/2)
+
+    )
 
 }
 
