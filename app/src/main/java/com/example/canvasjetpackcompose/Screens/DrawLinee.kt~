@@ -15,7 +15,10 @@ fun DrawLine(modifier: Modifier = Modifier) {
         val canvusheight= size.height
         drawLine(
             color = Color.Red,
+            //Starting (0,0)
+            //took x to 0 no change y to height/2 ) First pt goes down
             start = Offset(x=0f , y=canvusheight/2 ),
+            //took x to canvusw to get itto b point at end (width end)
             end = Offset(x=canvuswidth , y= canvusheight/2),
             strokeWidth = 10f
         )

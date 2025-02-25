@@ -24,3 +24,18 @@ fun DrawLine(modifier: Modifier = Modifier) {
         )
     }
 }
+
+@Composable
+fun DrawLine2(modifier: Modifier = Modifier) {
+    Canvas(modifier = Modifier.fillMaxSize()) {
+        val height = size.height
+        val width = size.width
+        drawLine(
+            color = Color.Green,
+            start = Offset(x= 0f,y= 0f) ,
+            end = Offset(x=width , y= height) ,
+            strokeWidth = 10f
+        )
+    }
+
+}

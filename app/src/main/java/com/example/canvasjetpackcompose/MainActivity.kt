@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.canvasjetpackcompose.Screens.AndroidBot
 import com.example.canvasjetpackcompose.Screens.DrawLine
+import com.example.canvasjetpackcompose.Screens.DrawLine2
 import com.example.canvasjetpackcompose.ui.theme.CanvasJetpackComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +25,8 @@ class MainActivity : ComponentActivity() {
             CanvasJetpackComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding)){
-                      DrawLine()
+                     // DrawLine()
+                        DrawLine2()
 
                     }
 
