@@ -76,7 +76,7 @@ dependencies {
 
     implementation("androidx.lifecycle:lifecycle-common-java8:$lifecycle_version")
 
- 
+    implementation("androidx.core:core-splashscreen:1.0.0")
 
 
 }
