@@ -1,4 +1,4 @@
-package com.example.canvasjetpackcompose
+package com.example.snapsignature
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

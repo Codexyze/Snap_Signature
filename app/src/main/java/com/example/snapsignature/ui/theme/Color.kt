@@ -1,4 +1,4 @@
-package com.example.canvasjetpackcompose.ui.theme
+package com.example.snapsignature.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

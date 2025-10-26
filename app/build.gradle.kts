@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.canvasjetpackcompose"
+    namespace = "com.example.snapsignature"
     compileSdk = 35
 
     defaultConfig {

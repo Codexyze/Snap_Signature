@@ -1,4 +1,4 @@
-package com.example.canvasjetpackcompose.model
+package com.example.snapsignature.model
 
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color

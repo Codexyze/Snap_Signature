@@ -1,4 +1,4 @@
-package com.example.canvasjetpackcompose
+package com.example.snapsignature
 
 import org.junit.Test
 

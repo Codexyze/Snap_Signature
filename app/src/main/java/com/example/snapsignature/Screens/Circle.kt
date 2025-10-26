@@ -1,4 +1,4 @@
-package com.example.canvasjetpackcompose.Screens
+package com.example.snapsignature.Screens
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.fillMaxSize
@@ -15,7 +15,6 @@ fun Circle1(modifier: Modifier = Modifier) {
         drawCircle(
             color = Color.Green,
             radius =  120.dp.toPx()
-
 
         )
 

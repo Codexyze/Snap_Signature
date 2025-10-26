@@ -1,4 +1,4 @@
-package com.example.canvasjetpackcompose
+package com.example.snapsignature
 
 import android.Manifest
 import android.content.pm.PackageManager
@@ -35,7 +35,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.draw.scale
-import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.DrawScope
@@ -50,10 +49,10 @@ import androidx.compose.ui.layout.onSizeChanged
 import androidx.core.content.ContextCompat
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.canvasjetpackcompose.model.DrawStroke
-import com.example.canvasjetpackcompose.ui.theme.CanvasJetpackComposeTheme
-import com.example.canvasjetpackcompose.viewmodel.DrawingViewModel
-import com.example.canvasjetpackcompose.viewmodel.SaveState
+import com.example.snapsignature.model.DrawStroke
+import com.example.snapsignature.ui.theme.CanvasJetpackComposeTheme
+import com.example.snapsignature.viewmodel.DrawingViewModel
+import com.example.snapsignature.viewmodel.SaveState
 import kotlinx.coroutines.flow.collectLatest
 
 data class ColorCategory(
@@ -266,7 +265,7 @@ fun DrawingScreen(
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         Text(
-                            "✨ Canvas Studio",
+                            "Draw Signature",
                             style = MaterialTheme.typography.headlineSmall,
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.onSurface

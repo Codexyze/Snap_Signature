@@ -1,6 +1,5 @@
-package com.example.canvasjetpackcompose.ui.theme
+package com.example.snapsignature.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

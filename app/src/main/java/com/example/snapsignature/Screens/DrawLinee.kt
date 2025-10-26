@@ -1,4 +1,4 @@
-package com.example.canvasjetpackcompose.Screens
+package com.example.snapsignature.Screens
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.fillMaxSize

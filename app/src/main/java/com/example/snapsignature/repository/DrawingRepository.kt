@@ -1,4 +1,4 @@
-package com.example.canvasjetpackcompose.repository
+package com.example.snapsignature.repository
 
 import android.content.ContentValues
 import android.content.Context
@@ -13,12 +13,11 @@ import android.util.Log
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.core.graphics.createBitmap
-import com.example.canvasjetpackcompose.model.DrawStroke
+import com.example.snapsignature.model.DrawStroke
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File
 import java.io.FileOutputStream
-import java.io.OutputStream
 
 class DrawingRepository(private val context: Context) {
 

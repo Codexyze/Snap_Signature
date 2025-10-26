@@ -1,4 +1,4 @@
-package com.example.canvasjetpackcompose.viewmodel
+package com.example.snapsignature.viewmodel
 
 import android.app.Application
 import androidx.compose.runtime.mutableFloatStateOf
@@ -9,9 +9,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.IntSize
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.canvasjetpackcompose.model.DrawStroke
-import com.example.canvasjetpackcompose.repository.DrawingRepository
-import com.example.canvasjetpackcompose.repository.SaveResult
+import com.example.snapsignature.model.DrawStroke
+import com.example.snapsignature.repository.DrawingRepository
+import com.example.snapsignature.repository.SaveResult
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
