@@ -36,7 +36,7 @@ import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.example.canvasjetpackcompose.Line
+
 
 data class Lines(
     val startLine:Offset,
@@ -134,29 +134,3 @@ fun PaintScreen(modifier: Modifier = Modifier) {
 
 }
 
-@Composable
-fun PraticeSet(modifier: Modifier = Modifier) {
-    val lines = remember { mutableStateListOf<Line>() }
-    Column (modifier = Modifier.fillMaxSize()){
-        Canvas(modifier = Modifier.fillMaxSize().pointerInput(Unit){
-            detectDragGestures { change, dragAmount ->
-                change.consume()
-                val line =Line(
-                    start = change.position -  dragAmount,
-                    end = change.position
-                )
-                lines.add(line)
-
-            }
-        }) {
-            lines.forEach {
-                drawLine(
-                    start = it.start,
-                    end = it.end,
-                    color = it.color
-                )
-            }
-        }
-    }
-
-}
